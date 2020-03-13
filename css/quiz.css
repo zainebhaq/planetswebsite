@@ -1,0 +1,40 @@
+body{
+    font: 1em helvetica, arial, sans-serif;
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+    padding-top: 2em;
+    background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  }
+
+* { box-sizing: border-box; }
+ul {
+  position: relative;
+  width: 20em;
+  margin: auto;
+}
+.post-wrapper{
+  text-align: center;
+  margin: 30px auto;
+}
+
+
+li {
+    width: 50em;
+    height: 50em;
+    background-color: tomato;
+    border: 1px solid black;
+    position: absolute;
+    opacity: 10;
+}
+
+.shown {
+  opacity: 1;
+}
+
+.card__image
+{
+  height: 20em;
+  width: 20em;
+  position: center;
+}
+
