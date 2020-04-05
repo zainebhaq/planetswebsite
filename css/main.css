@@ -15,26 +15,6 @@ bottom: 3%;
 width: 100%;
 justify-content: space-between;
 }
-.explore{
-  position: absolute;
-
-width: 10%; 
-top: 72%;
-left: 60%;
-}
-.explore a{
-  color: rgb(235, 201, 8);
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-}
-.rocket{
-  position: absolute;
-  Transform: rotate(90deg);
-  width: 10%; 
-  top: 60%;
- left: 75%;
-}
 
 li{
   display: inline-block;
@@ -58,6 +38,41 @@ li > a{
   width: 100%;
   right:1em;
 }
+.footer-content >a{
+  color: #EEE;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+.footer-content{
+color: #EEE;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+.quizbutton{
+  left: auto;
+  right: auto;
+  text-align: center;
+  padding-bottom: 3em;
+}
+.quiz{
+  background-color: rgb(216, 168, 10);
+  color: #EEE;
+  font-size: 1em;
+  width: 10em;
+  height: 3em;
+}
+.signup{
+  background-color: rgb(216, 168, 10);
+  color: #EEE;
+  width: 10em;
+  height: 4em;
+}
 @media screen and (max-width: 600px) {
     li{
       display: inline-block;
@@ -76,7 +91,7 @@ li > a{
     top:20%;
     left:50px;
   }
-  h2{
+  h3{
     font-family: 'Open Sans Condensed', sans-serif;
     color: rgb(221, 168, 23);
     text-shadow: 0.02em 0.02em 0 #333;
@@ -86,10 +101,14 @@ li > a{
     top:15%;
     left:50px;
   }
-  .planet-img{
-    padding: 350px 120px 10px 120px;
+  .all-planets{
+    margin-top: 70%;
+    text-align: center;
   }
-.planetTitle {
+  .planet-img{
+padding: 0.2em;
+  }
+h2 {
     font-size: 40px;
     font-weight: bold;
     font-family: serif;
@@ -104,7 +123,7 @@ li > a{
       font-size:20px;
   }
  .description{
-  font-size: 20px;
+  font-size: 15px;
   font-weight: lighter;
   font-family: sans-serif;
   color: white;
@@ -115,7 +134,7 @@ li > a{
       width: auto;
       height: auto;
       background-color:rgb(0, 0, 0);
-      padding: 20px;
+      padding: 5em;;
       top: 100%;
     }
      .solarsystem{
@@ -216,6 +235,19 @@ color: white;
   right: 10%;
   top: 18%;
   width: 40%;
+}
+.quizbutton{
+  left: auto;
+  right: auto;
+  text-align: center;
+  padding-bottom: 5em;
+}
+.quiz{
+  background-color: rgb(216, 168, 10);
+  color: #EEE;
+  font-size: 1.5em;
+  width: 15em;
+  height: 6em;
 }
 }
 
