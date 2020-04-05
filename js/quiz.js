@@ -13,7 +13,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 
 let questions = [
     {
-        question : "What is the most dense planet in our solar system?",
+        question :"What is the most dense planet in our solar system?",
         imgSrc : "img/space.jpg",
         choiceA : "Earth",
         choiceB : "Mars",
@@ -42,7 +42,7 @@ let questions = [
         correct : "C"
     },{
         question : "Which planet has a ring?",
-        imgSrc : "img/ring.jpg",
+        imgSrc : "img/saturn.jpg",
         choiceA : "Mercury",
         choiceB : "Saturn",
         choiceC : "Venus",
