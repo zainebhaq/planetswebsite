@@ -1,11 +1,13 @@
 let theStateOfTheInterface = (event) => {
 
-	let $panel = document.querySelector('.panel')
-	// How much has scrolled?
 	let winH = document.documentElement.clientHeight
 	let docH = document.documentElement.scrollHeight
-	let maxY = docH - winH
 	let winY = window.scrollY
+
+	let $panel = document.querySelector('.panel')
+	// How much has scrolled?
+
+
 	// Remove all images from the panel
 	while ($panel.firstChild) {
 		$panel.removeChild($panel.lastChild);
